@@ -1,4 +1,5 @@
 import './App.css'
+import Compound from './patterns/compound/Compound'
 import ContainerPresentational from './patterns/container-presentational/ContainerPresentational'
 import HigherOrderComponent from './patterns/hoc/HigherOrderComponent'
 import CustomHook from './patterns/hook/CustomHook'
@@ -13,6 +14,7 @@ function App() {
       <CustomHook />
       <ProviderPattern />
       <RenderProps />
+      <Compound />
     </>
   )
 }
