@@ -3,6 +3,7 @@ import ContainerPresentational from './patterns/container-presentational/Contain
 import HigherOrderComponent from './patterns/hoc/HigherOrderComponent'
 import CustomHook from './patterns/hook/CustomHook'
 import ProviderPattern from './patterns/provider/Provider'
+import RenderProps from './patterns/render-props/RenderProps'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HigherOrderComponent />
       <CustomHook />
       <ProviderPattern />
+      <RenderProps />
     </>
   )
 }
