@@ -1,4 +1,5 @@
 import './App.css'
+import Hydration from './hydration/Hydration'
 import Compound from './patterns/compound/Compound'
 import ContainerPresentational from './patterns/container-presentational/ContainerPresentational'
 import HigherOrderComponent from './patterns/hoc/HigherOrderComponent'
@@ -17,6 +18,7 @@ function App() {
       <RenderProps />
       <Compound />
       <Rendering />
+      <Hydration />
     </>
   )
 }
